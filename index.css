@@ -1,0 +1,42 @@
+.div1{
+    
+    font-style: oblique;
+  
+    
+  
+   
+}
+.tables{
+    width: 100%;
+    position: fixed;
+    background-color: khaki;
+}
+.div2{
+    background-color: black;
+    animation-duration: 4s;
+    animation-name: example;
+    padding: 0.2rem;
+    
+    }
+    @keyframes example {
+        from {padding: 0rem;}
+        to {padding: 0.2rem;}
+        
+    }
+    
+body{
+    margin: 0px;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    font-size: 150%;
+     padding-right: 1.1rem;
+   
+}
+    
+nav {
+    font-size: 100%;
+    text-align: right;
+    
+}
