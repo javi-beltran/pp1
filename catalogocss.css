@@ -1,0 +1,29 @@
+#der {
+    width: 50%;
+    border-radius: 5px;
+    animation-name: aparecer;
+    animation-duration: 4s;
+    background-color: burlywood;
+    align-items: center;
+}
+
+#izq {
+    width: 50%;
+    border-radius: 5px;
+    animation-name: aparecer;
+    animation-duration: 4s;
+    background-color: cadetblue;
+  
+}
+
+img{
+    display:block;
+    margin:auto;
+    }
+
+#padre {
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+}
