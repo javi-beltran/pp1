@@ -1,4 +1,4 @@
-#der {
+#der  {
     width: 50%;
     border-radius: 5px;
     animation-name: aparecer;
@@ -16,14 +16,16 @@
   
 }
 
-img{
-    display:block;
-    margin:auto;
-    }
+
+#der img{
+    margin-left: 20%;
+     }
+
+#izq img{
+    margin-left: 10%;
+     }
 
 #padre {
-    align-items: stretch;
-    flex-direction: row;
-    justify-content: flex-start;
+   
     display: flex;
-}
+    justify-content: space-around;

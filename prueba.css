@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
+div{
+    border: 2px ;
+    border:solid;
+    border-color: black;
+    border-radius: 5px;
+    width: 25%;
+    height: 300px;
+    position: relative;
+}
+.botonCerrar{
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    position: absolute;    
+    right: 0px;
+    margin: 3px;
+}

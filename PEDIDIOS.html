@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sublimacion sociedad animada</title>
+    <title>CATALOGO Sublemacion S.R.L</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="pedidos.css">
     <link rel="stylesheet" href="foother.css">
-    
+    <script type="text/javascript">
+            function verificar(){
+                var nombre,mail,si,no; 
+                var saludo=document.getElementById("envio");
+                nombre=document.getElementById("i1");
+                mail=document.getElementById("i2");
+                si=document.getElementById("i3");
+                no=document.getElementById("i4");
+
+                if(nombre.value!==""&&mail.value!==""){
+                    saludo.hidden=false;
+                    saludo.className="p1";
+                    saludo.innerText="Se a enviado exitosamente en poco tiempo responderemos";
+                }
+
+                if (nombre.value==""){
+                    nombre.className="error";
+                    saludo.className="p";
+                    saludo.innerText="FALTA COMPLETAR CAMPO/S EN ROJO "
+                    saludo.hidden=false;
+                    
+                }else {
+                    
+                    nombre.className="noerror";
+                    
+                }
+
+                if (mail.value==""){
+                    mail.className="error";
+                    saludo.className="p";
+                    saludo.innerText="FALTA COMPLETAR CAMPO/S EN ROJO "
+                    saludo.hidden=false;
+                }else {
+                    
+                    mail.className="noerror";
+                }
+
+
+                    
+            }
+           
+    </script>
 </head>
 <body>
     <header>
@@ -23,12 +65,12 @@
                                 <td>
                                     <nav class="nav1" >
                             
+                                                    <a href="index.html">INICIO</a>
                                                     
                                                     <a href="CATALOGO.html">CATALOGO</a>
                                                     
-                                                    <a href="PEDIDIOS.html">PEDIDIOS</a>
                                                     
-                                                
+                                                    
                                                 
                                     </nav>
                                 </td>
@@ -41,35 +83,38 @@
                     <div class="div2">
                         
                     </div>
-                    
+                   
     </header>
 
-
-
-    <p class="p">ROPA</p>
-   <div aling="center">
-    <img class="img" src="index-1.jpg"  >
     <br>
+    <br>
+    <br>
+    <br>
+    
+<div id="div22">
+    <form>
+        <label>Ingrese su nombre</label>
+        <br>
+        <input id="i1"type="text" >
+        <br>
+        
+        <label>Ingrese su E-mail</label>
+        <br>
+        <input  id="i2" type="text" >
+        <br>
+        
+        
+            <br>
+            <p hidden id="envio" class="p"></p>
+            <p hidden id="envio" class="p1"></p>
+            <br>
+
+
+        <input class="benviar" type="button" value="Enviar" onclick="verificar()">
+        
+    </form>
 </div>
 
-<div aling="center">
-    <img class="img" src="index-3.png"  >
-    <br>
-</div>
-
-<div aling="center">
-    <P class="p">GORRAS</P>
-    <img class="img" src="index-2.jpg"  >
-    <br>
-</div>
-
-
-
-<div aling="center">
-    <P class="p">TAZAS</P>
-    <img class="img" src="index-4.png"  >
-    <br>
-</div>
 
 </br>
 </br>
@@ -88,6 +133,4 @@
 </footer>
 
 </body>
-
-
 </html>

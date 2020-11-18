@@ -14,11 +14,11 @@
 .div2{
     background-color: black;
     animation-duration: 4s;
-    animation-name: example;
+    animation-name: ejemplo;
     padding: 0.2rem;
     
     }
-    @keyframes example {
+    @keyframes ejemplo {
         from {padding: 0rem;}
         to {padding: 0.2rem;}
         
